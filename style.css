@@ -34,7 +34,7 @@ p{
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
 }
-button{
+.button{
   margin-top: 30vh;
   padding: 11px 60px;
   border-radius: 10px;
@@ -44,13 +44,13 @@ button{
   font-size: 24px;
   transition: 0.2s;
 }
-button:hover{
+.button:hover{
   border-width: 5px;
   background-color: #D33600;
   border-color: #D33600;
   cursor: pointer;
 }
-button:hover ~ .border{
+.button:hover + .border {
   margin: 1rem 7px;
   border-color: #D33600;
 }
